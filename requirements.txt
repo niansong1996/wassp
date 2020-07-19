@@ -29,7 +29,7 @@ Markdown==3.1.1
 matplotlib==2.2.4
 mock==3.0.5
 multiprocess==0.70.9
-nltk==3.3
+nltk==3.4.5
 numpy==1.16.6
 pathos==0.2.5
 pox==0.2.7
