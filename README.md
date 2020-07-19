@@ -4,6 +4,8 @@ This repository contains the experiment code for the AAAI 2020 paper, [Merging W
 
 <div align="middle"><img src="https://github.com/niansong1996/wassp/blob/master/images/wassp_overview.png" width="80%"></div>
 
+### Note: Ansong Ni has moved from CMU to Yale, please see his new contact info [here](https://github.com/niansong1996/wassp#contact).
+
 ## Memory Augmented Policy Optimization (MAPO)
 The semantic parsing model we used in our paper is MAPO. If you are looking for more information about MAPO, please refer to this [paper](https://arxiv.org/abs/1807.02322) and [repository](https://github.com/crazydonkey200/neural-symbolic-machines).
 
@@ -72,9 +74,9 @@ please see relevant options described in the `run.sh` file.
 
 ### Hardware
 
-Our experiments are run on g3.4xlarge AWS instance, which has 16 vCPUs and 122 GiB of memory. It takes ~10 hours to run WikiSQL experiments and ~4 hours to run WikiTableQuestions experiments.
+Our experiments are run on g3.4xlarge AWS instance, which has 16 vCPUs and 122 GiB of memory as well as a M60 GPU with ~8GiB of GPU memory. It takes ~10 hours to run WikiSQL experiments and ~4 hours to run WikiTableQuestions experiments.
 
-If you are running the experiments on a machine with less Computing Power/RAM, we recommend you to decrease the `n_actors`(default=30) parameter in `run.sh`.
+If you are running the experiments on a machine with less CPU Computing Power/RAM, we recommend you to decrease the `n_actors`(default=30) parameter in `run.sh`.
 
 ### Monitoring training process
 You can monitor the training process with tensorboard, specifically:
@@ -118,3 +120,5 @@ If you use the code in your research, please cite:
       year={2017}
     }
 
+## Contact
+This code is developed by [Ansong Ni](https://niansong1996.github.io) while he was at CMU but he is now at Yale. So if you find issues in running the code or would like to discuss some part of this work, feel free to contact Ansong at this new email address: [ansong.ni@yale.edu](mailto:ansong.ni@yale.edu).
